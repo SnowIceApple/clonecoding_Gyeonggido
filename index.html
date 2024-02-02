@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=1920, user-scalable=yes, target-densitydpi=400">
+<title>경기도청 클론코딩</title>
+
+<!-- css -->
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<!-- font-family: 'Noto Sans KR', sans-serif; -->
+
+<!-- js -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header data-include-path="./inc/header.html"></header>
+    </div>
+    <section id="main">
+        <div class="container">
+            <div class="main">
+                <div class="main_box left">
+                    <div class="swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./img/main_visual.jpg" alt="#">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./img/main_visual2.jpg" alt="#">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./img/main_visual.jpg" alt="#">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev1">
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div class="swiper-button-next1">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="ms_tit">
+                        <div class="swiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">광역버스 일부업체 입석운행 중단 안내</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">경기도, 전세계 반도체 허브의 중심이 될 수 있도록 새로운 반도체 생태계를 만들어 가겠습니다</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">광역버스 일부업체 입석운행 중단 안내</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swp2_control">
+                            <div class="swiper-pagination2"></div>
+                            <button class="swiper-button-prev2">
+                                <ion-icon name="chevron-back-outline"></ion-icon>
+                                <span class="hidden_text">이전 슬라이드</span>
+                            </button>
+                            <button class="swiperPlayPause2">
+                                <ion-icon name="pause-outline" class="spp1"></ion-icon>
+                                <ion-icon name="caret-forward-outline" class="spp2"></ion-icon>
+                                <span class="hidden_text">슬라이드 정지</span>
+                            </button>
+                            <button class="swiper-button-next2">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                                <span class="hidden_text">다음 슬라이드</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_box right">
+                    <div class="main_search_box">
+                        <div class="msb_input">
+                            <input type="search" class="main_search" placeholder="검색어를 입력하세요">
+                            <button type="submit">
+                                <span class="hidden_text">검색하기</span>
+                            </button>
+                        </div>
+                        <div class="msb_slide">
+                            <div class="swiper3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">장애인특별공급</a>  
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">극저신용대출</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">경기도 통합공모</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">청소년 교통비 지원</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">장애인 특별공급</a>
+                                    </div>
+                                </div>
+                                <div class="msb_slide_control">
+                                    <button class="swiper-button-prev3">
+                                        <span class="hidden_text">이전 슬라이드</span>
+                                        <ion-icon name="chevron-back-outline"></ion-icon>
+                                    </button>
+                                    <button class="swiper-button-next3">
+                                        <span class="hidden_text">다음 슬라이드</span>
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="voiceOfGYD">
+                            <a href="#">
+                                경기도의
+                                <strong>소리</strong>
+                            </a>
+                            <ul>
+                                <li><a href="#">공익제보 핫라인</a></li>
+                                <li><a href="#">도민정책제안</a></li>
+                                <li><a href="#">도민청원</a></li>
+                                <li><a href="#">도민발안</a></li>
+                            </ul>
+                        </div>
+                        <div class="governor">
+                            <div class="gn_top">
+                                <div class="gn_top_text">
+                                    <a href="#">
+                                        <img src="./img/20221018_dojisa_title_img01.png" alt="">
+                                        <br>
+                                        <img src="./img/dojisa_text_img01.png" alt="">
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="gn_bot">
+                                <a href="#">
+                                    <img src="./img/dojisa_icon_img01.png" alt="#">
+                                    열린도지사실
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main_notice">
+        <div class="container">
+            <div class="main_notice">
+                <div class="mn_left">
+                    <div class="mn_ico_list">
+                        <ul>
+                            <li class="color">
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>코로나 19</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>경기민원 24</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>관광포털</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>부동산포털</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>데이터드림</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>시험일정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>청년포털</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="mni_ico"></div>
+                                    <span>경기도보</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="news_slide">
+                        <a href="#" class="ns_link">
+                            경기뉴스광장
+                        </a>
+                        <div class="swiper4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">“광역버스 입석 승차 중단, 도민 불편 최소화하겠습니다”</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">경기도 특사경, ‘찾아가는 피해상담소’ 운영…대리입금 피해 예방</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">[한컷뉴스] 겨울철 코로나19 재유행 대응 방법은？</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">경기도, 지적재산권 전수조사해 3억2천만 원 징수·압류</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper4_control">
+                            <button class="swiper-button-prev4">
+                                <span class="hidden_text">이전 슬라이드</span>
+                                <ion-icon name="chevron-up-outline"></ion-icon>
+                            </button>
+                            <button class="swiper-button-next4">
+                                <span class="hidden_text">다음 슬라이드</span>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="main_notice_tab">
+                        <ul class="mnt_f1">
+                            <li class="active">
+                                <button>보도자료</button>
+                                <div class="mnt_list">
+                                    <ul class="mnt_f2">
+                                        <li>
+                                            <a href="#">20221118 0시 기준 AI 및 ASF 방역추진 일보</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">경기도 코로나19 현황(11.18.10시)</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">“지역상권 살릴 기회 주고, 영수증으로 음악회 입장하세요”</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">경기미래교육양평캠퍼스, 가족관계 회복 위한 2차 소통캠프 열어</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">민선 8기 경기도, ‘직업훈련 장애인’ 대상 기회수당 도입‥전국 광역지자체 최초</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>최신소식</button>
+                                <div class="mnt_list">
+                                    <ul class="mnt_f2">
+                                        <li>
+                                            <a href="#">경기도 일반용역 적격심사 세부기준 지침(경기도예규 729호)</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2022년 경기도 로봇산업 육성지원 성과평가 결과</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2022년 드론산업 육성지원 성과평가 결과</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2022년 대중소 상생형 스마트공장 구축 지원 성과평가 결과</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2022년 경기도형 스마트공장 구축지원 성과평가 결과</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>계약입찰</button>
+                                <div class="mnt_list">
+                                    <ul class="mnt_f2">
+                                        <li>
+                                            <a href="#">생활3관 생활지도팀 사무실 조성공사 견적조사 결과 및 계약건의</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">성남소방서 신축청사 야외데크 휴게시설 등 설치 공사 대금지급 건의</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">지하식소화전 맨홀 도색(사각)</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">군포소방서 안전체험관 증축공사 건설폐기물처리용역</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">의용소방대 신임대장 피복(정복 등) 구입 건의</a>
+                                            <span>2022.11.17</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>고시공고</button>
+                                <div class="mnt_list">
+                                    <ul class="mnt_f2">
+                                        <li>
+                                            <a href="#">2023년 디지털 경기도정 시스템 운영 및 유지관리 용역</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2022년 경기도 에너지 분야 융자 계획(변경) 공고</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">전원개발사업 실시계획 승인(154kV 북통진변전소 건설사업)</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">건설산업기본법 위반 종합건설업체 과태료 부과처분 공고</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">국&#8228;공유재산 무단점유에 따른 변상금 독촉고지서 공시 송달 공고(홈페이지)</a>
+                                            <span>2022.11.18</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mn_right">
+                    <div class="main_sns_tab">
+                        <ul class="mst_f1">
+                            <li class="active">
+                                <button>
+                                    <img src="./img/main_sns_yutube.png" alt="유튜브">
+                                </button>
+                                <div class="mst_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/mqdefault.jpg" alt="">
+                                                </div>
+                                                <span>유난히 빛났던 경기도의 밤하늘, 청년예술가X경기도｜스노우볼 미디어아트쇼</span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/mqdefault_2.jpg" alt="">
+                                                </div>
+                                                <span>[라인업-김연자, 박재정, 린, 박현빈] 지역소상공인을 위한 기회의 영수증 음악회</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/mqdefault.jpg" alt="">
+                                                </div>
+                                                <span>유난히 빛났던 경기도의 밤하늘, 청년예술가X경기도｜스노우볼 미디어아트쇼</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/mqdefault_2.jpg" alt="">
+                                                </div>
+                                                <span>[라인업-김연자, 박재정, 린, 박현빈] 지역소상공인을 위한 기회의 영수증 음악회</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="mst_more">
+                                        <a href="#">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button>
+                                    <img src="./img/main_sns_facebook.png" alt="페이스북">
+                                </button>
+                                <div class="mst_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img1.jpg" alt="">
+                                                </div>
+                                                <span>11월 18일부터 도민 안전을 위해 광역버스 일부업체에서 입석운행을 중단합니다</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img2.jpg" alt="">
+                                                </div>
+                                                <span>소상공인에게는 상권 살리는 기회 경기도민에게는 콘서트 보는 기회</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img1.jpg" alt="">
+                                                </div>
+                                                <span>11월 18일부터 도민 안전을 위해 광역버스 일부업체에서 입석운행을 중단합니다</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img2.jpg" alt="">
+                                                </div>
+                                                <span>소상공인에게는 상권 살리는 기회 경기도민에게는 콘서트 보는 기회</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="mst_more">
+                                        <a href="#">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button>
+                                    <img src="./img/main_sns_twitter.png" alt="트위터">
+                                </button>
+                                <div class="mst_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img2.jpg" alt="">
+                                                </div>
+                                                <span>소상공인에게는 상권 살리는 기회 경기도민에게는 콘서트 보는 기회</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img1.jpg" alt="">
+                                                </div>
+                                                <span>11월 18일부터 도민 안전을 위해 광역버스 일부업체에서 입석운행을 중단합니다</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img1.jpg" alt="">
+                                                </div>
+                                                <span>11월 18일부터 도민 안전을 위해 광역버스 일부업체에서 입석운행을 중단합니다</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="mst_img">
+                                                    <img src="./img/fb_img2.jpg" alt="">
+                                                </div>
+                                                <span>소상공인에게는 상권 살리는 기회 경기도민에게는 콘서트 보는 기회</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="mst_more">
+                                        <a href="#">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sub_notice">
+        <div class="container">
+            <div class="sub_notice">
+                <div class="sn_tag_list">
+                    <ul>
+                        <li><a href="#">#도민을 위한 공공생리대</a></li>
+                        <li><a href="#">#불법사금융 피해신고</a></li>
+                        <li><a href="#">#경기도 주요업무계획</a></li>
+                        <li><a href="#">#2022년 성실납세자</a></li>
+                        <li><a href="#">#대안교육기관 등 학생교복 지원</a></li>
+                    </ul>
+                </div>
+                <div class="sn_left">
+                    <div class="sub_notice_tab">
+                        <ul class="snt_f1">
+                            <li class="active">
+                                <button>공정경기</button>
+                                <div class="snt_list">
+                                    <ul class="snt_f2">
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_10.jpg" alt="#">
+                                                    <span class="snt_tit">녹물 없는 우리집 수도관 개량사업</span>
+                                                    <span class="snt_date">2022.11.18</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_11.jpg" alt="#">
+                                                    <span class="snt_tit">경기도 광역버스 입석 중단 안내(11.18. 첫차부터)</span>
+                                                    <span class="snt_date">2022.11.17</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_12.jpg" alt="#">
+                                                    <span class="snt_tit">경기똑D 간편인증 서비스 개시</span>
+                                                    <span class="snt_date">2022.11.14</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="snt_more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>안전경기</button>
+                                <div class="snt_list">
+                                    <ul class="snt_f2">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_10.jpg" alt="#">
+                                                        <span class="snt_tit">녹물 없는 우리집 수도관 개량사업</span>
+                                                        <span class="snt_date">2022.11.18</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_11.jpg" alt="#">
+                                                        <span class="snt_tit">경기도 광역버스 입석 중단 안내(11.18. 첫차부터)</span>
+                                                        <span class="snt_date">2022.11.17</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_12.jpg" alt="#">
+                                                        <span class="snt_tit">경기똑D 간편인증 서비스 개시</span>
+                                                        <span class="snt_date">2022.11.14</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    <a href="#" class="snt_more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>행복경기</button>
+                                <div class="snt_list">
+                                <ul class="snt_f2">
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_10.jpg" alt="#">
+                                                    <span class="snt_tit">녹물 없는 우리집 수도관 개량사업</span>
+                                                    <span class="snt_date">2022.11.18</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_11.jpg" alt="#">
+                                                    <span class="snt_tit">경기도 광역버스 입석 중단 안내(11.18. 첫차부터)</span>
+                                                    <span class="snt_date">2022.11.17</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_12.jpg" alt="#">
+                                                    <span class="snt_tit">경기똑D 간편인증 서비스 개시</span>
+                                                    <span class="snt_date">2022.11.14</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="snt_more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>희망경기</button>
+                                <div class="snt_list">
+                                <ul class="snt_f2">
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_10.jpg" alt="#">
+                                                    <span class="snt_tit">녹물 없는 우리집 수도관 개량사업</span>
+                                                    <span class="snt_date">2022.11.18</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_11.jpg" alt="#">
+                                                    <span class="snt_tit">경기도 광역버스 입석 중단 안내(11.18. 첫차부터)</span>
+                                                    <span class="snt_date">2022.11.17</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="snt_img">
+                                                    <img src="./img/20221118_12.jpg" alt="#">
+                                                    <span class="snt_tit">경기똑D 간편인증 서비스 개시</span>
+                                                    <span class="snt_date">2022.11.14</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="snt_more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <button>함께경기</button>
+                                <div class="snt_list">
+                                    <ul class="snt_f2">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_10.jpg" alt="#">
+                                                        <span class="snt_tit">녹물 없는 우리집 수도관 개량사업</span>
+                                                        <span class="snt_date">2022.11.18</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_11.jpg" alt="#">
+                                                        <span class="snt_tit">경기도 광역버스 입석 중단 안내(11.18. 첫차부터)</span>
+                                                        <span class="snt_date">2022.11.17</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="snt_img">
+                                                        <img src="./img/20221118_12.jpg" alt="#">
+                                                        <span class="snt_tit">경기똑D 간편인증 서비스 개시</span>
+                                                        <span class="snt_date">2022.11.14</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    <a href="#" class="snt_more">
+                                        <span class="hidden_text">더보기</span>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sn_right">
+                    <div class="snt_slide">
+                        <div class="swiper5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/20221118_58.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/20221118_58.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/20221118_58.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="snts_tit">
+                            <div class="swiper6">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">주방용 오물분쇄기 불법 사용에 주의하세요</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">주방용 오물분쇄기 불법 사용에 주의하세요</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">주방용 오물분쇄기 불법 사용에 주의하세요</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper6_control">
+                                <div class="swiper-pagination6"></div>
+                                <button class="swiper-button-prev6">
+                                    <ion-icon name="chevron-back-outline"></ion-icon>
+                                </button>
+                                <button class="swiperPlayPause6">
+                                    <ion-icon name="pause-outline" class="spp1"></ion-icon>
+                                    <ion-icon name="caret-forward-outline" class="spp2"></ion-icon>
+                                </button>
+                                <button class="swiper-button-next6">
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sub_ico_notice">
+        <div class="container">
+            <div class="sub_ico_notice">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_09.png" alt="#">
+                            </div>
+                            <span class="sin_txt">뉴스포털</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_10.png" alt="#">
+                            </div>
+                            <span class="sin_txt">노동권익센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_11.png" alt="#">
+                            </div>
+                            <span class="sin_txt">교통정보센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_12.png" alt="#">
+                            </div>
+                            <span class="sin_txt">건축포털</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_13.png" alt="#">
+                            </div>
+                            <span class="sin_txt">경기도민센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_14.png" alt="#">
+                            </div>
+                            <span class="sin_txt">민원신고</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_15.png" alt="#">
+                            </div>
+                            <span class="sin_txt">공공기관채용</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_16.png" alt="#">
+                            </div>
+                            <span class="sin_txt">사전정보공표</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_17.png" alt="#">
+                            </div>
+                            <span class="sin_txt">여론조사</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_18.png" alt="#">
+                            </div>
+                            <span class="sin_txt">자치법규</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_19.png" alt="#">
+                            </div>
+                            <span class="sin_txt">사이버도서관</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_20.png" alt="#">
+                            </div>
+                            <span class="sin_txt">조직도</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="sin_img">
+                                <img src="./img/new_main_icon_21.png" alt="#">
+                            </div>
+                            <span class="sin_txt">통합공모</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer data-include-path="./inc/footer.html"></footer>
+</body>
+</html>
